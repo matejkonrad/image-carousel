@@ -7,6 +7,8 @@
 
 .image-carousel {
     transform-style: preserve-3d;
+    height: auto;
+    width: auto
 }
 
 .image-carousel__photo {
@@ -15,6 +17,9 @@
     max-width: 100%;
     transform: translateX(0%);
     z-index: 500;
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
     transition: transform .5s, opacity .5s, z-index .5s;
 }
 
