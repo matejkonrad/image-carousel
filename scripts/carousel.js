@@ -1,6 +1,6 @@
-const PHOTO_SELECTOR = ".carousel__photo";
-const NEXT_SELECTOR = ".carousel__button--next";
-const PREV_SELECTOR = ".carousel__button--prev";
+const PHOTO_SELECTOR = ".image-carousel__photo";
+const NEXT_SELECTOR = ".image-carousel__button--next";
+const PREV_SELECTOR = ".image-carousel__button--prev";
 
 const Carousel = () => {
     let imageNodes = [];
